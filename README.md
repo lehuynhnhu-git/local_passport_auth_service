@@ -1,8 +1,15 @@
-Chạy và test local_passport_auth_service
-npm init -y
-npm install express body-parser cookie-parser express-session mongoose passport passport-local
-npm install bcrypt
+# Local Passport Auth Service
+
+Ứng dụng xác thực người dùng với **Passport Local** và lưu session bằng MongoDB.
+
+## Cài đặt
+
+```bash
+git clone https://github.com/lehuynhnhu-git/local_passport_auth_service.git
+cd local_passport_auth_service
+npm install
 node app.js
+
 1. Register
 ## Demo kết quả
 ![Register](images/register.png)
